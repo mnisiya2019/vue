@@ -35,7 +35,8 @@
 				}				
 			},
 			mounted() {
-				const backendEndpoint = 'http://localhost:30114/notes_from_b';
+//				const backendEndpoint = 'http://localhost:30114/notes_from_b';
+				const backendEndpoint = 'http://153.120.121.157:30114/notes_from_b';
 
 				axios.get(backendEndpoint)
 					.then(response => {
